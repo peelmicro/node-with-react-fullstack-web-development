@@ -14,13 +14,13 @@ $ cd client
 
 $ npm install # Or yarn install
 
+$ npm run dev
+
 *   server is loaded at localhost:5000
 
 *   client is loaded at localhost:3000
 
 *   it executes both server and client at the same time
-
-$ npm run dev
 
 # before executing it, setting credentials and variables must be updated
 
