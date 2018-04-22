@@ -8,11 +8,13 @@
 
 $ npm install # Or yarn install
 
-# install cliente dependencies
+# install clients dependencies
 
 $ cd client
 
 $ npm install # Or yarn install
+
+# execute it
 
 $ npm run dev
 
@@ -22,7 +24,7 @@ $ npm run dev
 
 *   it executes both server and client at the same time
 
-# before executing it, setting credentials and variables must be updated
+# Before executing it, setting credentials and variables must be updated
 
 1st) Rename config/dev.example.js to dev.js
 
