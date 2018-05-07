@@ -5,6 +5,7 @@ const passport = require('passport')
 const bodyParser = require('body-parser')
 const keys = require('./config/keys')
 require('./models/User') // Just to execute it
+require('./models/Survey') // Just to execute it
 require('./services/passport') // Just to execute it
 
 mongoose.connect(keys.mongoUri)
@@ -25,6 +26,7 @@ app.use(passport.session())
 
 require('./routes/authRoutes')(app)
 require('./routes/billingRoutes')(app)
+require('./routes/surveyRoutes')(app)
 
 if (process.env.NODE_ENV === 'production') {
   // Express will serve up production assets

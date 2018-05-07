@@ -5,5 +5,7 @@ module.exports = {
   mongoUri: 'mongodb://user:passwrd@insatnce.mlab.com:port/emaily-dev',
   cookieKey: 'cookiekeycookiekey',
   stripePublishableKey: 'pk_test_weqeweqweqwerwrwrwrwrwrI',
-  stripeSecretKey: 'sk_test_werwrwrwerwwerwrerrwrwrwr'
+  stripeSecretKey: 'sk_test_werwrwrwerwwerwrerrwrwrwr',
+	sendGridKey: 'jdkjahdakhakhakhdahdadhk',
+	redirectDomain: 'http://localhost:3000'
 }
